@@ -1,8 +1,8 @@
 import React from 'react';
 import * as C from './App.styles';
-import LogoImage from './assets/devmemory_logo.png';
 
 const App = () => {
+  const LogoImage =  require("./assets/logo.png")
 
   return (
     <C.Container>
