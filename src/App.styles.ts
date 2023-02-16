@@ -25,3 +25,13 @@ export const LogoLink = styled.a`
     display: block;
 `;
 
+export const InfoArea = styled.div`
+    width: 100%;
+    margin: 10px 0;
+    @media (max-width: 750px) {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+`;
+
