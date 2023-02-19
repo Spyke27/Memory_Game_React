@@ -1,6 +1,8 @@
 import React from 'react';
 import * as C from './App.styles';
 
+import { InfoItem } from './components/InfoItem';
+
 const App = () => {
   const LogoImage =  require("./assets/logo.png")
 
@@ -12,7 +14,8 @@ const App = () => {
         </C.LogoLink>
 
         <C.InfoArea>
-
+          <InfoItem label='Tempo' value='00:00'/>
+          <InfoItem label='Movimentos' value='0'/>
         </C.InfoArea>
 
         <button>reiniciar</button>
