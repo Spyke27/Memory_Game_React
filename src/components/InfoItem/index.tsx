@@ -8,6 +8,8 @@ type Props = {
 export const InfoItem = ({label, value}: Props) => {
 
     return(
-        
+        <C.Container>
+            
+        </C.Container>
     )
 }
