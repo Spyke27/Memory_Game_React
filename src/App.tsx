@@ -6,6 +6,8 @@ import { InfoItem } from './components/InfoItem';
 const App = () => {
   const LogoImage =  require("./assets/logo.png")
 
+  /* Testando */
+
   return (
     <C.Container>
       <C.Info>
