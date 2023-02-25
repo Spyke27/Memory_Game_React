@@ -11,7 +11,6 @@ export const InfoItem = ({label, value}: Props) => {
         <C.Container>
             <C.Label>{label}</C.Label>
             <C.Value>{value}</C.Value>
-            <C.Value>{value}</C.Value>
         </C.Container>
     )
 }

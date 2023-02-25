@@ -13,4 +13,5 @@ export const Value = styled.div`
     font-size: 37px;
     font-weight: bold;
     color: #101c40;
+    background-color: #111;
 `;
