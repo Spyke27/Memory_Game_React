@@ -2,6 +2,7 @@ import React from 'react';
 import * as C from './App.styles';
 
 import { InfoItem } from './components/InfoItem';
+import { Button } from './components/Button';
 
 const App = () => {
   const LogoImage =  require("./assets/logo.png")
@@ -20,7 +21,7 @@ const App = () => {
           <InfoItem label='Movimentos' value='0'/>
         </C.InfoArea>
 
-        <button>reiniciar</button>
+        <Button label="Reiniciar" icon={} onClick={} />
       </C.Info>
       <C.GridArea>
 
