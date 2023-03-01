@@ -8,6 +8,7 @@ import RestartButton from "./svgs/restart.svg";
 
 const App = () => {
   const LogoImage =  require("./assets/logo.png")
+  /* Imagem não está carregando */
 
   const resetAndCreateGrid = () => {
 
