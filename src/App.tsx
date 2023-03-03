@@ -4,11 +4,11 @@ import * as C from './App.styles';
 import { InfoItem } from './components/InfoItem';
 import { Button } from './components/Button';
 
-import RestartButton from "./svgs/restart.svg";
+/* import RestartButton from "./svgs/restart.svg"; */
+
 
 const App = () => {
   const LogoImage =  require("./assets/logo.png")
-  /* Imagem não está carregando */
 
   const resetAndCreateGrid = () => {
 
