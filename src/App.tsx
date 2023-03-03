@@ -11,7 +11,6 @@ const App = () => {
   const LogoImage =  require("./assets/logo.png")
 
   const resetAndCreateGrid = () => {
-    const reset = false;
   }
 
   return (
