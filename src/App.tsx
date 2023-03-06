@@ -14,7 +14,7 @@ const App = () => {
   }
 
   return (
-    {/* <C.Container>
+    <C.Container>
       <C.Info>
         <C.LogoLink href="">
           <img src={LogoImage} width="200" alt="" />
@@ -30,7 +30,7 @@ const App = () => {
       <C.GridArea>
 
       </C.GridArea>
-    </C.Container> */}
+    </C.Container>
   );
 }
 
