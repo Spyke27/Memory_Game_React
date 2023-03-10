@@ -12,7 +12,7 @@ const App = () => {
 
   const resetAndCreateGrid = () => {
   }
-
+aaa
   return (
     <C.Container>
       <C.Info>
